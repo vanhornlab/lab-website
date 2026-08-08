@@ -1,0 +1,15 @@
+<<<<<<< SEARCH
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
+
+    - name: Build with Hugo
+=======
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
+      with:
+        enablement: false
+
+    - name: Build with Hugo
+>>>>>>> REPLACE
