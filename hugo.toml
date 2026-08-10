@@ -2,18 +2,6 @@ baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'Modern Academic Lab Site'
 
-[module]
-  [[module.imports]]
-    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify"
-  [[module.imports]]
-    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal"
-  [[module.imports]]
-    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5"
-  [[module.imports]]
-    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-core"
-  [[module.imports]]
-    path = "github.com/HugoBlox/hugo-blox-builder/modules/blox-seo"
-
 [params]
   description = "A modern academic lab site"
 
