@@ -25,3 +25,10 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+/public/
+/.hugo_build.lock
+/resources/_gen/
+.DS_Store
+Thumbs.db
+
