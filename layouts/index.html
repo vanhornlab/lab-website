@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ .Site.Title }}</title>
+</head>
+<body>
+  <header>
+    <h1>{{ .Site.Title }}</h1>
+    <nav>
+      <ul>
+        {{ range .Site.Menus.main }}
+          <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+        {{ end }}
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <p>{{ .Site.Params.description }}</p>
+    {{ .Content }}
+  </main>
+</body>
+</html>
