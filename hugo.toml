@@ -38,10 +38,10 @@ title = 'Van Horn Lab'
     url = "/publications/"
     weight = 40
 
-  [[menus.main]]
-    name = "Facilities"
-    url = "/facilities/"
-    weight = 50
+ # [[menus.main]]
+ #   name = "Facilities"
+ #   url = "/facilities/"
+ #   weight = 50
 
   [[menus.main]]
     name = "Contact"

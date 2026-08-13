@@ -4,9 +4,19 @@ type: landing
 sections:
   - block: hero
     content:
-      title: Welcome
-      text: Get started by adding new content with [Hugo Chat](https://hugo.chat/?utm_source=hugoblox_site&utm_medium=hero_cta&utm_content=starter_homepage) or editing visually with [Ownable CMS](https://marketplace.visualstudio.com/items?itemName=ownable.ownable) for VS Code.
+      title: ""
+      text: |
+        ![Van Horn Lab Banner](/media/WVH_Logo_v1a.png)
+
+        We study how membrane proteins and ion channels involved in human sensation and disease convert conformational dynamics into cellular signaling.
+      cta:
+        label: Explore Research
+        url: /research/
+      cta_alt:
+        label: Join the Lab
+        url: /contact/
     design:
+      columns: '1'
       spacing:
-        padding: ['5rem', 0, '5rem', 0]
+        padding: ['0', '0', '0', '0']
 ---

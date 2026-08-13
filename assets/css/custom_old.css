@@ -1,0 +1,15 @@
+/* Keep the header alignment balanced */
+.navbar .container,
+.navbar .container-fluid {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+/* Ensure the nav links center nicely between the two structures */
+.navbar-collapse {
+    flex-grow: 1;
+    display: flex !important;
+    justify-content: space-between;
+    align-items: center;
+}
