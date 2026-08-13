@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'Modern Academic Lab Site'
+title = 'Van Horn Lab'
 
 [module]
   [[module.imports]]
