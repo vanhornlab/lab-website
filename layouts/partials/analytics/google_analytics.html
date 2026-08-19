@@ -1,0 +1,4 @@
+{{- $analyticsID := site.Config.Services.GoogleAnalytics.ID -}}
+{{- if $analyticsID -}}
+  {{ template "_internal/google_analytics.html" . }}
+{{- end -}}

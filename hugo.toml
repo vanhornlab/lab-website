@@ -38,10 +38,10 @@ title = 'Van Horn Lab'
     url = "/publications/"
     weight = 40
 
- # [[menus.main]]
- #   name = "Facilities"
- #   url = "/facilities/"
- #   weight = 50
+  [[menus.main]]
+    name = "Lab Information"
+    url = "/lab-information/"
+    weight = 50
 
   [[menus.main]]
     name = "Contact"
@@ -51,3 +51,8 @@ title = 'Van Horn Lab'
 [security]
   [security.funcs]
     getenv = ['^HUGO_', '^CI$', '^WC_']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
