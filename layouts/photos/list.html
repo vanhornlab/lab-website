@@ -1,0 +1,230 @@
+{{ define "main" }}
+<div class="container py-5">
+  <h1 class="text-white mb-4">Photo Gallery</h1>
+
+  <style>
+    .photo-card {
+      background-color: #1f2430;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    .photo-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.2s ease-in-out;
+    }
+    .photo-card img:hover {
+      transform: scale(1.02);
+    }
+    .photo-caption {
+      padding: 12px 16px;
+      font-size: 0.95rem;
+      color: #e0e0e0;
+      font-weight: 500;
+      text-align: center;
+    }
+  </style>
+
+  <!-- Section: Group Photos -->
+  <h3 class="text-white mt-4 mb-3 border-bottom pb-2 border-secondary">Group Photos</h3>
+  <div class="row">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/April2026_labpic.png" target="_blank">
+          <img src="/media/labpics/April2026_labpic.png" alt="Spring 2026">
+        </a>
+        <div class="photo-caption">Spring 2026</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/May2024_labpic.png" target="_blank">
+          <img src="/media/labpics/May2024_labpic.png" alt="Spring 2024">
+        </a>
+        <div class="photo-caption">Spring 2024</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/2018_spring_lab_photo.jpg" target="_blank">
+          <img src="/media/labpics/2018_spring_lab_photo.jpg" alt="Spring 2018">
+        </a>
+        <div class="photo-caption">Spring 2018</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section: Lab Hikes & Outings -->
+  <h3 class="text-white mt-4 mb-3 border-bottom pb-2 border-secondary">Lab Hikes & Outings</h3>
+  <div class="row">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/2023_lab_hike.jpg" target="_blank">
+          <img src="/media/labpics/2023_lab_hike.jpg" alt="2023 Lab Hike">
+        </a>
+        <div class="photo-caption">2023 Lab Hike</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/2019_lab_hike_web.jpg" target="_blank">
+          <img src="/media/labpics/2019_lab_hike_web.jpg" alt="2019 Lab Hike">
+        </a>
+        <div class="photo-caption">2019 Lab Hike</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/Lab_Hike_2019.jpg" target="_blank">
+          <img src="/media/labpics/Lab_Hike_2019.jpg" alt="2018 Lab Hike">
+        </a>
+        <div class="photo-caption">2018 Lab Hike</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/lab_hike_2017_web.jpg" target="_blank">
+          <img src="/media/labpics/lab_hike_2017_web.jpg" alt="2017 Lab Hike">
+        </a>
+        <div class="photo-caption">2017 Lab Hike</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/Lab_Hike_2016.jpg" target="_blank">
+          <img src="/media/labpics/Lab_Hike_2016.jpg" alt="2016 Lab Hike">
+        </a>
+        <div class="photo-caption">2016 Lab Hike</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/group_hike_20131207.jpg" target="_blank">
+          <img src="/media/labpics/group_hike_20131207.jpg" alt="Inaugural Lab Hike (2013)">
+        </a>
+        <div class="photo-caption">Inaugural Lab Hike (2013)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section: Graduations & Awards -->
+  <h3 class="text-white mt-4 mb-3 border-bottom pb-2 border-secondary">Graduations & Awards</h3>
+  <div class="row">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/MJK_graduation_web2.jpg" target="_blank">
+          <img src="/media/labpics/MJK_graduation_web2.jpg" alt="MJK Graduation (2020)">
+        </a>
+        <div class="photo-caption">MJK Graduation (2020)</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/jkh_grad.jpg" target="_blank">
+          <img src="/media/labpics/jkh_grad.jpg" alt="JKH Graduation (2019)">
+        </a>
+        <div class="photo-caption">JKH Graduation (2019)</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/JT&AP_awards.jpg" target="_blank">
+          <img src="/media/labpics/JT&AP_awards.jpg" alt="JT and AMP Awards (2019)">
+        </a>
+        <div class="photo-caption">JT and AMP Awards (2019)</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/ns_grad_2018.jpg" target="_blank">
+          <img src="/media/labpics/ns_grad_2018.jpg" alt="NS Graduation (2018)">
+        </a>
+        <div class="photo-caption">NS Graduation (2018)</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/MB_JT_HN_awards.jpg" target="_blank">
+          <img src="/media/labpics/MB_JT_HN_awards.jpg" alt="MB JT HN Awards (2017)">
+        </a>
+        <div class="photo-caption">MB JT HN Awards (2017)</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/HN_award.jpg" target="_blank">
+          <img src="/media/labpics/HN_award.jpg" alt="HN Award (2017)">
+        </a>
+        <div class="photo-caption">HN Award (2017)</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/MJK_award.jpg" target="_blank">
+          <img src="/media/labpics/MJK_award.jpg" alt="MJK award (May 2014)">
+        </a>
+        <div class="photo-caption">MJK award (May 2014)</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section: Conferences & Events -->
+  <h3 class="text-white mt-4 mb-3 border-bottom pb-2 border-secondary">Conferences & Events</h3>
+  <div class="row">
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/2026_VHLab_Reunion_SF.jpeg" target="_blank">
+          <img src="/media/labpics/2026_VHLab_Reunion_SF.jpeg" alt="Van Horn Lab Reunion, San Francisco 2026">
+        </a>
+        <div class="photo-caption">Van Horn Lab Reunion, San Francisco 2026</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/2023BPS_VHLabbers.jpg" target="_blank">
+          <img src="/media/labpics/2023BPS_VHLabbers.jpg" alt="Former Van Horn Lab Trainees at the BPS Meeting 2023">
+        </a>
+        <div class="photo-caption">Former Van Horn Lab Trainees at the BPS Meeting 2023</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/Sanders_VanHorn_dinner.jpg" target="_blank">
+          <img src="/media/labpics/Sanders_VanHorn_dinner.jpg" alt="Sanders & Van Horn Lab Dinner at BPS Meeting 2017">
+        </a>
+        <div class="photo-caption">Sanders & Van Horn Lab Dinner at BPS Meeting 2017</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/transport1.jpg" target="_blank">
+          <img src="/media/labpics/transport1.jpg" alt="Lab commuters BC, MC, and CH (2013)">
+        </a>
+        <div class="photo-caption">Lab commuters BC, MC, and CH (2013)</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/850_installation.jpg" target="_blank">
+          <img src="/media/labpics/850_installation.jpg" alt="Early morning delivery of the 850 MHz instrument (Aug 2012)">
+        </a>
+        <div class="photo-caption">Early morning delivery of the 850 MHz instrument (Aug 2012)</div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+      <div class="photo-card">
+        <a href="/media/labpics/500MHz_decom.jpg" target="_blank">
+          <img src="/media/labpics/500MHz_decom.jpg" alt="500 MHz Decommission">
+        </a>
+        <div class="photo-caption">500 MHz Decommission</div>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}

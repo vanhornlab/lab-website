@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
-title = 'Modern Academic Lab Site'
+title = 'Van Horn Lab'
 
 [module]
   [[module.imports]]
@@ -39,8 +39,8 @@ title = 'Modern Academic Lab Site'
     weight = 40
 
   [[menus.main]]
-    name = "Facilities"
-    url = "/facilities/"
+    name = "Lab Information"
+    url = "/lab-information/"
     weight = 50
 
   [[menus.main]]
@@ -51,3 +51,8 @@ title = 'Modern Academic Lab Site'
 [security]
   [security.funcs]
     getenv = ['^HUGO_', '^CI$', '^WC_']
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

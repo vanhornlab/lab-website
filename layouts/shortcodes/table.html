@@ -1,0 +1,12 @@
+{{ $file := .Get "src" }}
+{{ $csv := os.ReadFile $file | transform.Unmarshal }}
+<table class="table table-striped">
+  {{ range $i, $row := $csv }}
+    {{ if eq $i 0 }}
+      <thead><tr>{{ range $cell := $row }}<th>{{ $cell }}</th>{{ end }}</tr></thead><tbody>
+    {{ else }}
+      <tr>{{ range $cell := $row }}<td>{{ $cell }}</td>{{ end }}</tr>
+    {{ end }}
+  {{ end }}
+  </tbody>
+</table>

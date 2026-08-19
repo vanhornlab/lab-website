@@ -1,44 +1,116 @@
-.home-section, #hero, [data-blox-block] {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
+/* Muted styling for hero affiliation text */
+.section-hero p:nth-of-type(2),
+.hero-lead + p {
+  font-size: 0.95rem !important;
+  color: #9ca3af !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 1.5rem !important;
 }
 
-#hero .container {
-  max-width: 95vw !important;
-  width: 95% !important;
+/* Make both Hero CTA buttons matching solid light-blue buttons */
+.section-hero .cta-group {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  margin-top: 1.25rem;
 }
 
-#hero img {
-  max-width: 1100px !important;
-  margin: 0 auto 0.5rem auto !important;
-}
-
-#hero .hero-lead {
-  margin-top: 0 !important;
-  text-align: center !important;
-}
-
-#hero .cta-btns {
-  display: flex !important;
+.section-hero .btn-primary,
+.section-hero .btn-secondary,
+.section-hero a.btn,
+.section-hero .hero-cta-alt {
+  display: inline-flex !important;
+  align-items: center !important;
   justify-content: center !important;
+  background-color: #a8d5ff !important;
+  color: #0f172a !important;
+  border: 1px solid #a8d5ff !important;
+  border-radius: 6px !important;
+  padding: 0.5rem 1.4rem !important;
+  font-weight: 500 !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  text-decoration: none !important;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05) !important;
+  transition: all 0.2s ease-in-out !important;
 }
 
-/* Header alignment with flanking protein icons */
-.navbar .container,
-.navbar .container-fluid,
-.navbar .container-xl {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
+/* Hide any auto-generated pseudo arrow icons */
+.section-hero a.btn::after,
+.section-hero .hero-cta-alt::after {
+  display: none !important;
+  content: "" !important;
 }
 
-.navbar-collapse {
-    flex-grow: 1;
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center;
+/* Hover state */
+.section-hero .btn-primary:hover,
+.section-hero .btn-secondary:hover,
+.section-hero a.btn:hover,
+.section-hero .hero-cta-alt:hover {
+  background-color: #bfdbfe !important;
+  border-color: #bfdbfe !important;
+  color: #0f172a !important;
+  transform: translateY(-1px);
 }
 
-.nav-icons {
-    margin-left: auto;
+/* Right-side navbar spectrum logo sizing */
+.navbar .nav-item img,
+.navbar-nav .nav-link img,
+.navbar-brand-right img,
+.navbar img[src*="png"] {
+  height: 48px !important;
+  max-height: 48px !important;
+  width: auto !important;
+  vertical-align: middle !important;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.4));
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Allow the navbar container to expand comfortably if needed */
+.navbar {
+  min-height: 70px !important;
+}
+
+/* Tighten People Widget Cards and Avatars */
+.people-person,
+.people-widget .card,
+.universal-wrapper .card {
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  box-shadow: none !important;
+  padding: 1rem 0.75rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* Ensure clean avatar sizing and round borders */
+.people-person .avatar,
+.people-widget .avatar,
+.avatar-circle {
+  border: 2px solid rgba(255, 255, 255, 0.15) !important;
+  margin-bottom: 0.75rem !important;
+}
+
+/* Tighten spacing between People sections */
+.wg-people,
+section[id*="people"],
+section.home-section,
+.people-section {
+  padding-top: 1.25rem !important;
+  padding-bottom: 1.25rem !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+/* Reduce gap above and below section headings */
+.wg-people h2,
+.wg-people h1,
+.people-section h2,
+.section-heading h1 {
+  margin-top: 0.5rem !important;
+  margin-bottom: 1.25rem !important;
+}
+
+/* Ensure compact layout for student rows */
+.people-person {
+  margin-top: 0.5rem !important;
+  margin-bottom: 1rem !important;
 }

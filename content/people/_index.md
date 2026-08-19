@@ -13,6 +13,8 @@ sections:
       show_interests: true
       show_role: true
       show_organizations: true
+      spacing:
+        padding: ["1.5rem", "0", "0.75rem", "0"]
 
   - block: people
     content:
@@ -24,6 +26,8 @@ sections:
       show_interests: true
       show_role: true
       show_organizations: true
+      spacing:
+        padding: ["0.75rem", "0", "0.75rem", "0"]
 
   - block: people
     content:
@@ -35,6 +39,8 @@ sections:
       show_interests: true
       show_role: true
       show_organizations: true
+      spacing:
+        padding: ["0.75rem", "0", "0.75rem", "0"]
 
   - block: people
     content:
@@ -46,33 +52,38 @@ sections:
       show_interests: true
       show_role: true
       show_organizations: true
+      spacing:
+        padding: ["0.75rem", "0", "1.5rem", "0"]
 
   - block: markdown
     content:
       title: Alumni
       text: |
-        - **Ariel Prater**, B.S. Clemson University; Ph.D. Arizona State University
-        - **Karan Shah**, B.S., M.S., Arizona State University (Medical student)
-        - **Yu-Tzu (Maya) Chang**, B.S. Dental School, New York University
-        - **Thomas Andrews**, B.S. Novartis
+        - **Yu Tzu (Maya) Chang**, B.S. Dental School, New York University
+        - **Thomas Andrews**, B.S. Encodia
         - **Minjoo Kim, Ph.D.** Postdoctoral Fellow, Columbia University
         - **Camila Montano**, B.S. Celebration Stem Cell Centre
-        - **Danielle Morales**, B.S. Optum2 / Therapeutics
-        - **Jannie Hilton, Ph.D.** Postdoctoral Fellow, National Institutes of Health
+        - **Danielle Morelan**, B.S. CytomX Therapeutics
+        - **Jacob Hilton, Ph.D.** Postdoctoral Fellow, National Institutes of Health
         - **Nicholas Sisco, Ph.D.** Postdoctoral Fellow, Vanderbilt University
-        - **Julie Sarkoe**, B.S. Future Physician Scientist
+        - **Julia Torline**, B.S. Future Physician Scientist
         - **Derek Lee**, B.S. Dental School, Columbia University
         - **Hoang Nguyen**, B.S. Graduate student, UCSD
         - **Samuel Gowland**, B.S. Graduate student, Northwestern
-        - **Nelly Benkato**, M.S. Fulbright Scholar, Poland
-        - **Olivia Brunerini**, B.S.
+        - **Molly Benkaim**, M.S. Fulbright Scholar, Poland
+        - **Olivia Brunacini**, B.S.
         - **Parth Rath**, Ph.D.
-        - **Max Casias**, M.S. (Ph.D. train Vanderbilt University)
+        - **Mac Castro**, B.S. Ph.D. from Vanderbilt University
         - **Maryam Waris**, B.S. Fulbright Scholar, Turkey; NIH Postbac
         - **Irina Anosova**, Ph.D.
-        - **Cole Holcomb**, B.S. Ph.D. from UCSF
+        - **Cole Helsell**, B.S. Ph.D. from UCSF
         - **Patrick Kelly**, B.S. Graduate student, ASU
         - **Jeremy McCarver**, B.S. Physician
-        - **Goretti Cervantes**, B.S. Postbac, University of Pennsylvania
-        - **Dorothy "E." Hachnowski**, B.A. Technical Marketing Specialist at Abbie Gregg Inc.
+        - **Beatriz Cervantes**, B.S. Postbac, University of Pennsylvania
+        - **Dorothy "B." Machorro**, B.A. Technical Marketing Specialist at Abbie Gregg Inc.
+
+        *Lab alumni: please send career and affiliation updates to WVH.*
+    design:
+      spacing:
+        padding: ["1rem", "0", "2rem", "0"]
 ---
