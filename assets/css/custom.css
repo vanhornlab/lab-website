@@ -22,3 +22,23 @@
   display: flex !important;
   justify-content: center !important;
 }
+
+/* Header alignment with flanking protein icons */
+.navbar .container,
+.navbar .container-fluid,
+.navbar .container-xl {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.navbar-collapse {
+    flex-grow: 1;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+}
+
+.nav-icons {
+    margin-left: auto;
+}

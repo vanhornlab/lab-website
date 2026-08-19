@@ -1,0 +1,26 @@
+{{ $show_logo := site.Params.header.navbar.show_logo | default true }}
+{{ $show_title := site.Params.header.navbar.show_title | default true }}
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+      {{ partial "navbar/brand" . }}
+
+      <div class="navbar-collapse main-menu-item collapse justify-content-center" id="navbar-content">
+        <ul class="navbar-nav d-md-inline-flex">
+          {{ range site.Menus.main }}
+            <li class="nav-item">
+              <a class="nav-link" href="{{ .URL | relLangURL }}" {{ if $.IsHome }}data-target="{{ .URL }}"{{ end }}><span>{{ .Name }}</span></a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+        <li class="nav-item d-none d-lg-inline-flex">
+          <img src="/media/WVH_Logo_Right.png" alt="Right Logo" style="height: 40px; margin-left: auto;">
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
