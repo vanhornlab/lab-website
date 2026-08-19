@@ -2,10 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/authors/anna-marie-agyapong/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/</loc>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/christine-rajarigam/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/dustin-luu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/helen-mann/</loc>
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/authors/kelvin-fosu/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/kyle-lopez/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/mubark-mebrat/</loc>
+  </url><url>
+    <loc>http://localhost:1313/people/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/sadie-heeringa/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/somali-wijeyalath-mudiyanselage/</loc>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/vaidehi-naiole/</loc>
+  </url><url>
+    <loc>http://localhost:1313/authors/wade-van-horn/</loc>
   </url>
 </urlset>
