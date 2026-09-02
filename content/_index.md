@@ -6,19 +6,26 @@ sections:
     content:
       title: ""
       text: |
+        <div class="text-center">
+
         ![Van Horn Lab Banner](/media/WVH_Logo_v1a.png)
 
         ### We uncover how membrane proteins turn motion into signals.
 
+        <div style="max-width: 780px; margin: 0 auto;">
+
         The Van Horn Lab studies ion channels and membrane proteins involved in sensation, excitability, and disease, using structural biology, biophysics, and cellular assays to connect conformational dynamics with human physiology.
 
         *School of Molecular Sciences • Biodesign Center for Personalized Diagnostics • Arizona State University*
-      cta:
-        label: Explore Research
-        url: /research/
-      cta_alt:
-        label: Join the Lab
-        url: /contact/
+
+        </div>
+
+        <div class="mt-4 d-inline-flex gap-3 justify-content-center" style="gap: 1.25rem;">
+          <a href="/research/" class="btn btn-primary btn-lg" style="text-decoration: none !important; border-bottom: none !important; color: #111827 !important;">Explore Research</a>
+          <a href="/join/" class="btn btn-primary btn-lg" style="text-decoration: none !important; border-bottom: none !important; color: #111827 !important;">Join the Lab</a>
+        </div>
+
+        </div>
     design:
       columns: '1'
       spacing:

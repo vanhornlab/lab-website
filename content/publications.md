@@ -6,6 +6,13 @@ summary: "Lab publications and articles in PubMed."
 
 [**View full publication list on PubMed (WVH)**](https://pubmed.ncbi.nlm.nih.gov/?term=Van+Horn+WD&sort=date&size=100)
 
+<div style="display: flex; justify-content: center; align-items: center; gap: 1.25rem; margin: 2rem 0; flex-wrap: nowrap;">
+  <img src="/media/covers/cover-matter.png" alt="Matter Cover" style="max-height: 190px; width: auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.4);" />
+  <img src="/media/covers/cover-biochemistry.png" alt="Biochemistry Cover" style="max-height: 190px; width: auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.4);" />
+  <img src="/media/covers/cover-chembiochem.png" alt="ChemBioChem Cover" style="max-height: 190px; width: auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.4);" />
+  <img src="/media/covers/cover-temperature.png" alt="Temperature Cover" style="max-height: 190px; width: auto; border-radius: 6px; box-shadow: 0 4px 10px rgba(0,0,0,0.4);" />
+</div>
+
 ---
 46\. Stefanski KM, Li GC, Luu DD, Fosu KK, Guadarrama E, Hutchison JM, Saksena N, Zuy Y, Fisch AJ, Hasaka TP, Bauer JA, George AL, Kenworthy AK, **Van Horn WD**, Sanders CR. Protein-enhanced small molecule disruptors of ordered membrane domains. *Proc. Natl. Acad. Sci. U.S.A.* **2026** 123(26):e2530579123. [doi:10.1073/pnas.2530579123](https://doi.org/10.1073/pnas.2530579123). PMID: 42335239
 
