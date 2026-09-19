@@ -1,4 +1,4 @@
-# [HugoBlox Starter — Your Blank Canvas](https://github.com/HugoBlox/hugo-starter)
+# [HugoBlox Starter — Your Blank Canvas](https://github.com/HugoBlox/hugo-starter) 
 
 [![Screenshot](https://github.com/HugoBlox/kit/raw/main/.github/media/hero.png)](https://hugoblox.com/templates/starter?utm_source=github&utm_medium=readme&utm_content=preview)
 
