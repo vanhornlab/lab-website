@@ -25,4 +25,4 @@ Our research interests are inherently interdisciplinary and we are affiliated wi
 - **Software, Scripts & Code:** Open-source analysis tools, automation scripts, and simulation pipelines on the [Van Horn Lab GitHub](https://github.com/vanhornlab).
 - **3D Printing & Fabrication:** Design repositories, hardware modifications, and lab-specific 3D printing resources. *(GitHub repository link coming soon)*
 - **Lab Photos & Gallery:** Archived and recent group events, lab activities, and milestones. View the [Lab Photos | Van Horn Lab](/photos/) gallery.
-- **Internal Wiki & SOPs:** [Login required - Van Horn Lab Wiki](https://vanhornlab.com/wiki) — Standard operating procedures, protocols, and internal documentation.
+- **Internal Wiki & SOPs:** [Login required - Van Horn Lab Wiki](https://wiki.vanhornlab.com/) — Standard operating procedures, protocols, and internal documentation.
