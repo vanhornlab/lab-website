@@ -16,7 +16,7 @@ The Van Horn lab is located in Interdisciplinary Science and Technology Building
   </div>
 </div>
 
-Our research interests are inherently interdisciplinary and we are affiliated with the [Virginia G. Piper Center for Personalized Diagnostics](https://biodesign.asu.edu/personalized-diagnostics), the [Center for Mechanisms of Evolution](https://biodesign.asu.edu/mechanisms-of-evolution), the [Biodesign Institute](https://biodesign.asu.edu/), and the [Magnetic Resonance Research Center](https://cores.research.asu.edu/magnetic-resonance-research-center/about).
+Our research interests are inherently interdisciplinary and we are affiliated with the [School of Molecular Sciences](https://sms.asu.edu/), the [Virginia G. Piper Center for Personalized Diagnostics](https://biodesign.asu.edu/personalized-diagnostics), the [Center for Mechanisms of Evolution](https://biodesign.asu.edu/mechanisms-of-evolution), the [Biodesign Institute](https://biodesign.asu.edu/), and the [Magnetic Resonance Research Center](https://cores.research.asu.edu/magnetic-resonance-research-center/about).
 
 <hr style="border-color: rgba(255,255,255,0.15); margin-top: 3rem; margin-bottom: 2.5rem;">
 

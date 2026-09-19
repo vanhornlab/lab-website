@@ -2,41 +2,57 @@
 title: "Research"
 ---
 
-# How Do Membrane Proteins Turn Molecular Motion into Cellular Signals?
+## We uncover how protein motion becomes biological function
 
-Membrane proteins and ion channels sit at the boundary between cells and their environments. They detect temperature, voltage, signaling lipids, endogenous/synthetic ligands, and disease-associated mutations—converting those inputs into dynamic conformational changes that drive downstream cellular signaling. 
-
-The Van Horn Lab investigates this molecular logic across atomic, lipid-membrane, cellular, and translational scales.
+The Van Horn Lab studies ion channels and other membrane proteins, and other biomolecular systems to understand how structure, dynamics, molecular interactions, and allostery control signaling, sensation, and disease. By integrating structural biology, biophysics, computation, and cellular assays, we connect conformational dynamics and allosteric mechanisms with physiological function.
 
 <hr style="border-color: rgba(255,255,255,0.15); margin: 2rem 0;">
 
-### Sensation, Thermoreception & Pain Pharmacology
-Sensory ion channels allow cells to detect physical temperature, chemical irritants, and mechanical cues. We investigate channels such as **TRPV1** and **TRPM8**, which serve as principal transducers of somatosensation, thermosensation, and pain signaling. Combining high-resolution cryo-EM, functional electrophysiology, and cell-based BRET assays, our work determines how chemically diverse agonists and antagonists bias conformational equilibria to inform the design of next-generation, non-addictive analgesics.
+### Core Research Areas
 
-### Membrane-Protein Interfaces & Allosteric Regulation
-Ion channels do not function in isolation; their conformational landscapes are regulated by the surrounding bilayer, signaling lipids such as **PIP₂**, and auxiliary regulatory subunits. We study the molecular mechanisms by which partner proteins (such as **PIRT**) and lipid headgroups remodel channel energy landscapes, tune gating thresholds, and govern desensitization in native-like membrane environments.
+<div class="row align-items-center mb-5 mt-4">
+  <div class="col-md-8">
+    <h4 class="mb-3">Sensory Transduction & Pain Pharmacology</h4>
+    <p class="m-0" style="text-align: justify;">We investigate sensory ion channels like <strong>TRPV1</strong> and <strong>TRPM8</strong>, which detect temperature, chemical signals, and other environmental stimuli. By determining how agonists and antagonists reshape channel structures and conformational ensembles, we identify molecular principles that could guide more selective, non-opioid approaches to treating pain.</p>
+  </div>
+  <div class="col-md-4 text-center mt-4 mt-md-0">
+    <img src="/media/cryo.png" alt="Cryo-EM Map" class="img-fluid rounded" style="max-height: 220px; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3));">
+  </div>
+</div>
 
-### Structural Ensembles & Dynamic Biophysics
-Biological function rarely relies on a static crystallographic snapshot—it emerges from dynamic conformational ensembles. To capture functional intermediates, we use an integrated biophysical toolkit:
-- **Solution & Solid-State NMR Spectroscopy:** Measuring site-specific chemical shifts, dynamics, and ligand-induced perturbations.
-- **Cryo-EM:** Resolving high-resolution structural architectures across distinct functional states.
-- **Biophysical Reconstitution:** Evaluating channel kinetics in defined liposomes, bicelles, and nanodiscs.
+<div class="row align-items-center mb-5 flex-column-reverse flex-md-row">
+  <div class="col-md-4 text-center mt-4 mt-md-0">
+    <img src="/media/HSQC_menthol.png" alt="HSQC NMR Spectrum" class="img-fluid rounded" style="max-height: 400px; width: auto; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3));">
+  </div>
+  <div class="col-md-8">
+    <h4 class="mb-3">Conformational Dynamics and Allostery</h4>
+    <p class="m-0" style="text-align: justify;">Ion channels are not static structures; they move among distinct conformational states that determine how they respond to drugs and cellular signals. We investigate how ligands, modulatory proteins such as <strong>PIRT</strong>, and the surrounding lipid membrane reshape these conformational ensembles and allosteric communication pathways to control channel gating..</p>
+  </div>
+</div>
 
-### Disease-Linked Channelopathies
-Subtle mutations in membrane-protein sequences often alter cellular excitability and human physiology. We investigate inherited and acquired variants in excitable-cell membrane proteins (including **KCNQ1** and accessory subunits) to understand how sequence perturbations alter structural stability, dynamic gating, protein trafficking, and signaling cascades.
+<div class="row align-items-center mb-5">
+  <div class="col-md-8">
+    <h4 class="mb-3">Disease-Linked Channelopathies</h4>
+    <p class="m-0" style="text-align: justify;">Small changes in ion-channel sequence can substantially alter cellular excitability. We investigate how inherited and acquired variants affect protein stability, trafficking, conformational dynamics, and channel gating, connecting molecular defects with cellular dysfunction and disease.</p>
+  </div>
+  <div class="col-md-4 text-center mt-4 mt-md-0">
+    <img src="/media/ephys.png" alt="Electrophysiology Trace" class="img-fluid rounded" style="max-height: 250px; width: auto; filter: drop-shadow(0 8px 16px rgba(0,0,0,0.3));">
+  </div>
+</div>
 
 <hr style="border-color: rgba(255,255,255,0.15); margin: 2.5rem 0;">
 
-### Our Integrative Approach
+### An Integrated Methodological Toolkit
 
-| Scale | Core Questions | Experimental Tools |
-| :--- | :--- | :--- |
-| **Molecular** | What structural ensembles encode activation vs. inhibition? | Solution NMR, Cryo-EM, Molecular Modeling |
-| **Membrane** | How do lipids and auxiliary proteins reshape energy landscapes? | Bicelle/Nanodisc Reconstitution, Binding Assays, Native Mass Spec |
-| **Cellular** | How do dynamic structural transitions govern signaling outputs? | BRET, Patch-Clamp Electrophysiology, Live-Cell Imaging |
-| **Disease** | How do clinical variants disrupt normal channel gating? | Site-Directed Mutagenesis, Functional Phenotyping, Kinetics |
+Biological function emerges from dynamic conformational ensembles, not static snapshots. We capture these functional transitions using a multi-scale approach:
+
+*   **Nuclear Magnetic Resonance (NMR) Spectroscopy:** Measuring site-specific conformational dynamics, structural flexibility, and ligand-induced perturbations in native-like environments.
+*   **Cryo-Electron Microscopy (Cryo-EM):** Resolving high-resolution structural architectures of membrane proteins across distinct functional states.
+*   **Electrophysiology:** Using whole-cell patch-clamp techniques to quantify real-time channel kinetics, gating behaviors, and functional cellular responses.
+*   **High-Throughput Screening (HTS):** Coupling functional cell-based assays with chemoinformatics to rapidly identify novel channel modulators and accelerate therapeutic discovery.
 
 <hr style="border-color: rgba(255,255,255,0.15); margin: 2.5rem 0;">
 
 ### Why It Matters
-Ion channels are among the most validated classes of therapeutic targets, yet drug discovery often struggles because candidate compounds fail to account for conformational dynamics and bilayer modulation. By establishing the structural mechanisms linking protein motion to cellular signaling, our goal is to reveal new paradigms for treating chronic pain, sensory neuropathies, cardiac arrhythmias, and membrane-protein channelopathies.
+
+Ion channels and other membrane proteins are important therapeutic targets, yet their behavior cannot always be understood from static structures alone. Conformational dynamics, allosteric interactions, and the surrounding lipid environment can profoundly influence how these proteins respond to ligands and transmit signals. By connecting molecular motion to cellular physiology, we seek to reveal new mechanisms and therapeutic opportunities for chronic pain, sensory disorders, channelopathies, and other diseases involving altered protein function.
