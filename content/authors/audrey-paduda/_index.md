@@ -1,9 +1,9 @@
 ---
-title: Audrey Padua
+title: Audrey Paduda
 role: Doctoral Student
-bio: B.S., Shippensburg University
+bio: B.S., Virginia Commonwealth University
 organizations:
-  - name: B.S., Shippensburg University
+  - name: B.S., Virginia Commonwealth University
 user_groups:
   - Graduate Students
 ---

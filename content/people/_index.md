@@ -59,23 +59,24 @@ sections:
     content:
       title: Alumni
       text: |
+        - **Helen (Mann) Bank, Ph.D.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/helen-bank-051588136/) — Chandler-Gilbert Community College
         - **Mubark Mebrat, Ph.D.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/mubarkmebrat/) — Postdoctoral Fellow, University of Connecticut Health Sciences Center
         - **Aerial Owens, Ph.D.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/aerial-owens/) — Biotechnology Educator, Mesa Public Schools
-        - **Helen (Mann) Bank, Ph.D.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/helen-bank-051588136/) — Chandler-Gilbert Community College
+        - **Karan Shah, B.S., M.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/karan-shah-a3188013a/) — M.D.-Ph.D. Student, Thomas Jefferson University
         - **Vaikhari Nalole, B.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/vaikhari-nalole-93524526a/) — Medical Student, University of Arizona School of Medicine
         - **Anna-Marie Agyepong, B.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/amagyepong/) — Ph.D. student, University of Arizona
         - **Yu Tzu (Maya) Chang, B.S.** — Dental School, New York University
         - **Thomas Andrews, B.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/thomasscottandrews/) — Encodia
-        - **Minjoo Kim, Ph.D.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/minjoo-kim-phd/) — Postdoctoral Fellow, Columbia University
+        - **Minjoo Kim, Ph.D.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/minjoo-kim-phd/) — Genome Engineer, Innovative Genomics Institute 
         - **Camila Montano, B.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/camila-montano-389463b9/) — Celebration Stem Cell Centre
         - **Danielle Morelan, B.S.** — CytomX Therapeutics
         - **Jacob Hilton, Ph.D.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/jacob-hilton-1aa84333/) — Postdoctoral Fellow, National Institutes of Health
         - **Nicholas Sisco, Ph.D.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/nicholas-sisco-ph-d-3633a2101/) — Postdoctoral Fellow, Vanderbilt University
         - **Julia Torline, B.S.** — Future Physician Scientist
         - **Derek Lee, B.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/derek-lee-bba155183/) — Dental School, Columbia University
-        - **Hoang Nguyen, B.S.** — Graduate student, UCSD
+        - **Hoang Nguyen, B.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/hoangphd/) — Postdoctoral Fellow, National Institutes of Health (Ph.D. from UCSD)
         - **Samuel Gowland, B.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/samgowland/) — Graduate student, Northwestern
-        - **Molly (Benkaim) Kramer, M.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/mollybenkaim/) — Fulbright Scholar, Poland
+        - **Molly (Benkaim) Kramer, B.S., M.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/mollybenkaim/) — Fulbright Scholar, Poland
         - **Olivia Brunacini, B.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/olivia-brunacini-671660139/)
         - **Parthasarathi Rath, Ph.D.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/parthasarathi-rath-phd-1323906b/) — Senior Scientist, R&D Discovery Sciences, AstraZeneca-Sweden
         - **Manuel (Mac) Castro, B.S.** [<i class="fab fa-linkedin" style="color: #0a66c2; font-size: 0.9em; margin-left: 4px;"></i>](https://www.linkedin.com/in/manuel-castro-094071102/) — Ph.D. from Vanderbilt University
